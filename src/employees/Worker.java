@@ -1,0 +1,22 @@
+package employees;
+
+import common.IEmployee;
+
+public class Worker extends Employee implements IEmployee {
+
+    public Worker(String name, double baseSalary) {
+        super(name, baseSalary);
+    }
+
+    @Override
+    public final double getBaseSalary() {
+        return super.getBaseSalary();
+    }
+
+    @Override
+    public double getSalary() {
+        return super.getBaseSalary();
+    }
+}
+
+
